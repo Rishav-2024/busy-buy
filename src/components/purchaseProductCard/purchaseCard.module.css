@@ -1,0 +1,82 @@
+.container{
+    border-radius: 8px;
+    margin-top: 30px;
+    width:60vw;
+    padding: 10px;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.container h2{
+    color: var(--dark);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+table{
+    padding:1px;
+}
+
+tr{
+    width:100%;
+}
+
+th{
+    background-color: rgb(92, 92, 92);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 2px 5px;
+    border-radius:4px;
+}
+
+.prodTitle{
+    width:25vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.products td{
+    background-color: rgb(226, 226, 226);
+    color:var(--dark);
+    font-weight: 500;
+}
+
+.title{
+    width: 30vw;
+}
+
+.price{
+    width: 15vw;
+    text-align: center;
+}
+
+.qty{
+    width: 15vw;
+    text-align: center;
+}
+
+.totalPrice{
+    width: 15vw;
+    text-align: center;
+}
+
+.totalContainer{
+    background-color: var(--dark);
+}
+
+td{
+    padding: 2px 5px;
+    border-radius:4px;
+}
+
+.totalContainer td{
+    font-weight:600;
+    color: white;
+}
+
+.total{
+    text-align: center;
+}

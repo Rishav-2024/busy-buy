@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height:100vh;
+    overflow: hidden;
+}
+
+:root{
+    --primary:rgb(7,204,251);
+    --secondary:rgb(110,241,180);
+    --dark:rgb(6, 2, 44);
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background: rgb(6, 2, 44, 0.2);
+    border-radius: 4px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: rgb(6, 2, 44, 0.7);
+    border-radius: 4px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(6, 2, 44)
+}
+
